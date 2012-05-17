@@ -52,12 +52,12 @@ h2 {
 
 .full-header {
   background-color: #F3F3F3;
-  padding-left: 1000px;
-  margin-left: -1000px;
-  padding-right: 1000px;
-  margin-right: -1000px;
-  padding-top: 500px;
-  margin-top: -500px;
+  position: absolute;
+  top: 0;
+  height: 230px;
+  width: 100%;
+  z-index: -1;
+  margin-top: 0;
 
 }
 
